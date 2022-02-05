@@ -66,6 +66,7 @@ header p {
 }
 .content img {
   width: 540px;
+  max-width: 100%;
 }
 /* end cotent */
 /* start footer */
