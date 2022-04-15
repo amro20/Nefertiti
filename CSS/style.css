@@ -34,34 +34,13 @@ header .logo {
 }
 header p {
   color: white;
-  width: 0px;
   font-size: 40px;
-  overflow: hidden;
-  white-space: nowrap;
   margin: 20px auto;
-  animation: control-width 3s steps(17) 2s both, blink 0.7s infinite;
-  border-left: solid 2px white;
   padding: 7px 0;
-}
-@keyframes control-width {
-  from {
-    width: 0;
-  }
-  to {
-    width: 350px;
-  }
-}
-@keyframes blink {
-  from {
-    border-left-color: white;
-  }
-  to {
-    border-left-color: transparent;
-  }
 }
 /* End header  */
 /* start cotent */
-.content{
+.content {
   text-align: center;
 }
 .content img {
@@ -100,13 +79,13 @@ footer .fa-instagram-square:hover {
 footer .fa-telegram:hover {
   color: #0088cc;
 }
-footer .fa-map-marker-alt:hover{
-color:red
+footer .fa-map-marker-alt:hover {
+  color: red;
 }
 @media (max-width: 768px) {
   footer {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     gap: 30px;
   }
 }
